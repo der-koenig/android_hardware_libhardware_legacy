@@ -94,6 +94,9 @@ public:
         TTS              = 9,
 #ifdef QCOM_HARDWARE
         INCALL_MUSIC     = 10,
+#ifdef QCOM_FM_ENABLED
+        FM               = 11,
+#endif
 #endif
         NUM_STREAM_TYPES
     };
